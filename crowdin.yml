@@ -1,0 +1,4 @@
+files:
+  - source: /DynamicBar/Localizable.xcstrings
+    translation: /DynamicBar/Localizable.xcstrings
+    multilingual: 1
