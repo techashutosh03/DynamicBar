@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FEA000012ED0000100000001 /* MeetingFeatures.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA000012ED0000200000001 /* MeetingFeatures.swift */; };
+		FEA000022ED0000100000001 /* ShelfImageTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA000022ED0000200000001 /* ShelfImageTools.swift */; };
+		FEA000032ED0000100000001 /* ScreenshotWatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA000032ED0000200000001 /* ScreenshotWatcher.swift */; };
+		FEA000042ED0000100000001 /* ClipboardHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA000042ED0000200000001 /* ClipboardHistory.swift */; };
+		FEA000052ED0000100000001 /* FocusTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA000052ED0000200000001 /* FocusTimer.swift */; };
+		FEA000062ED0000100000001 /* BluetoothMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA000062ED0000200000001 /* BluetoothMonitor.swift */; };
+		FEA000072ED0000100000001 /* DeveloperTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA000072ED0000200000001 /* DeveloperTools.swift */; };
 		1100290C2E847E2800035A57 /* NSItemProvider+LoadHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1100290B2E847E2800035A57 /* NSItemProvider+LoadHelpers.swift */; };
 		110029272E84FD4C00035A57 /* TemporaryFileStorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110029262E84FD4C00035A57 /* TemporaryFileStorageService.swift */; };
 		1100292A2E8691B400035A57 /* FileShareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110029292E8691B400035A57 /* FileShareView.swift */; };
@@ -181,6 +188,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FEA000012ED0000200000001 /* MeetingFeatures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingFeatures.swift; sourceTree = "<group>"; };
+		FEA000022ED0000200000001 /* ShelfImageTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelfImageTools.swift; sourceTree = "<group>"; };
+		FEA000032ED0000200000001 /* ScreenshotWatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotWatcher.swift; sourceTree = "<group>"; };
+		FEA000042ED0000200000001 /* ClipboardHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipboardHistory.swift; sourceTree = "<group>"; };
+		FEA000052ED0000200000001 /* FocusTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusTimer.swift; sourceTree = "<group>"; };
+		FEA000062ED0000200000001 /* BluetoothMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothMonitor.swift; sourceTree = "<group>"; };
+		FEA000072ED0000200000001 /* DeveloperTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeveloperTools.swift; sourceTree = "<group>"; };
 		1100290B2E847E2800035A57 /* NSItemProvider+LoadHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSItemProvider+LoadHelpers.swift"; sourceTree = "<group>"; };
 		110029262E84FD4C00035A57 /* TemporaryFileStorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemporaryFileStorageService.swift; sourceTree = "<group>"; };
 		110029292E8691B400035A57 /* FileShareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileShareView.swift; sourceTree = "<group>"; };
@@ -561,6 +575,13 @@
 		14CEF4142C5CAED300855D72 /* DynamicBar */ = {
 			isa = PBXGroup;
 			children = (
+				FEA000012ED0000200000001 /* MeetingFeatures.swift */,
+				FEA000022ED0000200000001 /* ShelfImageTools.swift */,
+				FEA000032ED0000200000001 /* ScreenshotWatcher.swift */,
+				FEA000042ED0000200000001 /* ClipboardHistory.swift */,
+				FEA000052ED0000200000001 /* FocusTimer.swift */,
+				FEA000062ED0000200000001 /* BluetoothMonitor.swift */,
+				FEA000072ED0000200000001 /* DeveloperTools.swift */,
 				11F748672EC9AC9600F841DB /* XPCHelperClient */,
 				116398942DF5D6B40052E6AF /* Providers */,
 				14288DE22C6E016F00B9F80C /* observers */,
@@ -905,6 +926,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEA000012ED0000100000001 /* MeetingFeatures.swift in Sources */,
+				FEA000022ED0000100000001 /* ShelfImageTools.swift in Sources */,
+				FEA000032ED0000100000001 /* ScreenshotWatcher.swift in Sources */,
+				FEA000042ED0000100000001 /* ClipboardHistory.swift in Sources */,
+				FEA000052ED0000100000001 /* FocusTimer.swift in Sources */,
+				FEA000062ED0000100000001 /* BluetoothMonitor.swift in Sources */,
+				FEA000072ED0000100000001 /* DeveloperTools.swift in Sources */,
 				115C12EC2ED3D003009754CA /* OpenNotchHUD.swift in Sources */,
 				14C08BB92C8DE4B1000F8AA0 /* DynamicBarCalendar.swift in Sources */,
 				5955950D2E900ED800C66711 /* ApplicationRelauncher.swift in Sources */,

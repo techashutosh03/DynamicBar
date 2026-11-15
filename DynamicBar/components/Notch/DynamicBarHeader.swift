@@ -13,6 +13,7 @@ struct DynamicBarHeader: View {
     @ObservedObject var batteryModel = BatteryStatusViewModel.shared
     @ObservedObject var coordinator = DynamicBarViewCoordinator.shared
     @StateObject var tvm = ShelfStateViewModel.shared
+    @StateObject private var meetingStore = MeetingStore()
     var body: some View {
         HStack(spacing: 0) {
             HStack {
@@ -38,6 +39,9 @@ struct DynamicBarHeader: View {
 
             HStack(spacing: 4) {
                 if vm.notchState == .open {
+                    MeetingPillView(store: meetingStore, onPreviewCamera: {
+                        vm.toggleCameraPreview()
+                    })
                     if isHUDType(coordinator.sneakPeek.type) && coordinator.sneakPeek.show && Defaults[.showOpenNotchHUD] {
                         OpenNotchHUD(type: $coordinator.sneakPeek.type, value: $coordinator.sneakPeek.value, icon: $coordinator.sneakPeek.icon)
                             .transition(.scale(scale: 0.8).combined(with: .opacity))

@@ -27,3 +27,4 @@ echo "3. Creating UDZO compressed installer DMG at $DMG_PATH..."
 hdiutil create -volname "DynamicBar" -srcfolder "$APP_PATH" -ov -format UDZO "$DMG_PATH"
 
 echo "✅ Done! Your downloadable $DMG_PATH is ready for sharing."
+

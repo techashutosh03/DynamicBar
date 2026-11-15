@@ -7,6 +7,12 @@
 		<key>NSAllowsLocalNetworking</key>
 		<true/>
 	</dict>
+	<key>NSCalendarsFullAccessUsageDescription</key>
+	<string>DynamicBar reads upcoming events locally to show meeting reminders.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Camera access is used only when you explicitly start the camera preview.</string>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>DynamicBar shows the connection status of paired Bluetooth devices.</string>
 	<key>SUEnableDownloaderService</key>
 	<true/>
 	<key>SUEnableInstallerLauncherService</key>
