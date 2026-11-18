@@ -67,3 +67,4 @@ final class BluetoothMonitor: ObservableObject {
         devices = connected.sorted { $0.name < $1.name }
     }
 }
+

@@ -23,6 +23,8 @@ struct ClipboardEntry: Identifiable {
 
 @MainActor
 final class ClipboardHistoryStore: ObservableObject {
+    static let shared = ClipboardHistoryStore()
+
     @Published private(set) var entries: [ClipboardEntry] = []
     @Published private(set) var isRecording = false
 
@@ -106,3 +108,4 @@ final class ClipboardHistoryStore: ObservableObject {
         }
     }
 }
+

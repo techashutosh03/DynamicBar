@@ -9,6 +9,8 @@ import SwiftUI
 
 @MainActor
 final class FocusTimerModel: ObservableObject {
+    static let shared = FocusTimerModel()
+
     @Published private(set) var duration: TimeInterval = 25 * 60
     @Published private(set) var remaining: TimeInterval = 25 * 60
     @Published private(set) var isRunning = false
@@ -126,3 +128,4 @@ struct FocusTimerPill: View {
         }
     }
 }
+

@@ -36,6 +36,9 @@ struct DynamicNotchApp: App {
                 }
             }
             .keyboardShortcut(KeyEquivalent(","), modifiers: .command)
+            Button("Quick Actions…") {
+                DynamicBarQuickActions.palette.toggle()
+            }
             CheckForUpdatesView(updater: updaterController.updater)
             Divider()
             Button("Restart DynamicBar") {
@@ -363,6 +366,12 @@ class AppDelegate: NSObject, NSApplicationDelegate {
                     duration: 3.0
                 )
             }
+        }
+
+        installQuickActions()
+
+        KeyboardShortcuts.onKeyDown(for: .toggleQuickActions) {
+            DynamicBarQuickActions.palette.toggle()
         }
 
         KeyboardShortcuts.onKeyDown(for: .toggleNotchOpen) { [weak self] in

@@ -1740,6 +1740,16 @@ struct Shortcuts: View {
             Section {
                 KeyboardShortcuts.Recorder("Toggle Notch Open:", name: .toggleNotchOpen)
             }
+            Section {
+                KeyboardShortcuts.Recorder("Toggle Quick Actions:", name: .toggleQuickActions)
+            } header: {
+                Text("General")
+            } footer: {
+                Text("Open the Quick Actions command palette from anywhere.")
+                    .multilineTextAlignment(.trailing)
+                    .foregroundStyle(.secondary)
+                    .font(.caption)
+            }
         }
         .accentColor(.effectiveAccent)
         .navigationTitle("Shortcuts")
